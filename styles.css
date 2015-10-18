@@ -1,0 +1,32 @@
+h1 { font-family: 'Roboto Slab', serif; }
+body { font-family: 'Roboto', sans-serif; }
+header { margin-bottom: 150px; }
+
+.logo {
+	padding: 20 20 20 20;
+	float: left;
+}
+
+.nav {
+	display: inline-block;
+}
+
+.container1 {
+	padding-left: 4%;
+	float:left;
+	width: 46%;
+}
+
+.container2 {
+	padding-left: 4%;
+	float: right;
+	width: 46%;
+}
+
+.collections {
+	margin-top: 60px;
+	margin-left: 4%;
+	margin-bottom: 4px;
+	display: inline-block;
+}
+
