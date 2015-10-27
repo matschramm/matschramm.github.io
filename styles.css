@@ -2,12 +2,14 @@ h1 { font-family: 'Roboto Slab', serif; }
 body { font-family: 'Roboto', sans-serif;
 	min-width: 1000px; 
 	 }
-header { 
+
+.headerbar { 
 	/*margin-bottom: 150px; */
+	background-color: #4ad737;
 }
 
 .logo {
-	padding: 20 20 20 20;
+	padding: 20 20 20 75;
 	float: left;
 	display: inline-block;
 }
@@ -15,6 +17,13 @@ header {
 .nav {
 	display: inline-block;
 	float: right;
+	font-family: 'Roboto Slab', serif;
+	padding: 40 75 20 20;
+}
+
+a:link {
+	text-decoration: none;
+	font-size: 24px;
 }
 
 .clear {
@@ -22,15 +31,18 @@ header {
 }
 
 .container1 {
-	padding-left: 4%;
+	display: inline-block;
+	padding-left: 10%;
 	float:left;
 	width: 46%;
 }
 
 .container2 {
+	display: inline-block;
 	padding-left: 4%;
+	padding-top: 40px;
 	float: right;
-	width: 46%;
+	width: 35%;
 }
 
 .collections {
