@@ -1,14 +1,24 @@
 h1 { font-family: 'Roboto Slab', serif; }
-body { font-family: 'Roboto', sans-serif; }
-header { margin-bottom: 150px; }
+body { font-family: 'Roboto', sans-serif;
+	min-width: 1000px; 
+	 }
+header { 
+	/*margin-bottom: 150px; */
+}
 
 .logo {
 	padding: 20 20 20 20;
 	float: left;
+	display: inline-block;
 }
 
 .nav {
 	display: inline-block;
+	float: right;
+}
+
+.clear {
+	clear:both;
 }
 
 .container1 {
@@ -30,3 +40,11 @@ header { margin-bottom: 150px; }
 	display: inline-block;
 }
 
+.imagetable {
+	width: 100%;
+}
+
+.imgtab {
+	width: 100%;
+
+}
